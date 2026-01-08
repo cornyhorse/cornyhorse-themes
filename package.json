@@ -1,0 +1,34 @@
+{
+  "name": "solarized-light-fixed",
+  "displayName": "Solarized Light (Fixed)",
+  "description": "Solarized Light with readable text in Extensions view, tabs, lists, and panels",
+  "version": "1.0.0",
+  "publisher": "cornyhorse",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "solarized",
+    "light",
+    "theme"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cornyhorse/cornyhorse-themes"
+  },
+  "homepage": "https://github.com/cornyhorse/cornyhorse-themes/blob/main/README.md",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Light (Fixed)",
+        "uiTheme": "vs",
+        "path": "./themes/solarized-light-fixed.json"
+      }
+    ]
+  }
+}
